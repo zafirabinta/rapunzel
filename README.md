@@ -26,6 +26,6 @@
 # How to run low-tier-b folder and device driver
 
 1. From current folder (rapunzel), "cd low-tier-b"
-2. make
-3. insmod zbf_devdr.ko
-4. ./test
+2. compile file using `make`
+3. insert custom module into kernel using `insmod zbf_devdr.ko`
+4. run the device driver using `./test`
