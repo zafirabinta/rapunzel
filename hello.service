@@ -1,0 +1,10 @@
+[Unit]
+Description=this is hello startup script
+
+[Service]
+Type=simple
+ExecStart=./run.test.drive2.sh start
+ExecStop=./run.test.drive2.sh stop
+
+[Install]
+WantedBy=default.target
