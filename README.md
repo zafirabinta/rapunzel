@@ -17,8 +17,11 @@
 
 # How to run our main program
 
-1. Make sure you're in the main folder where all the files belong (inside rapunzel folder!)
-2. ./run.test.drive2.sh start
+1. turn on Oracle VM VirtualBox, click "Devices" on navigation bar, then hover over "Webcam" and make sure that Integrated Camera is turned on
+2. install v4l2loopback-utils using `sudo apt install v4l2loopback-utils`
+3. install Mencoder using `sudo apt-get install mencoder`
+4. Make sure you're in the main folder where all the files belong (inside rapunzel folder!)
+5. ./run.test.drive2.sh start
 
 # How to run low-tier-b folder and device driver
 
